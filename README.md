@@ -38,10 +38,10 @@ sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 
 ### ¿Cómo contribuir?
 
-1. Hacer checkout (seleccionar y actualizar) la rama **develop**
-2. Crear una nueva rama con un nombre descriptivo (ejemplo: interfaces-personalizadas) desde la rama **develop**.
+1. Hacer checkout (seleccionar y actualizar) la rama **main**
+2. Crear una nueva rama con un nombre descriptivo (ejemplo: interfaces-personalizadas) desde la rama **main**.
 3. Crear/modificar archivos .rst dentro de la carpeta **/docs**. Tener en cuenta la estructura que se muestra en el punto siguiente.
-4. Al terminar, realizar un **Pull Request** desde la rama actual a la rama **develop**.
+4. Al terminar, realizar un **Pull Request** desde la rama actual a la rama **main**.
 5. Un administrador revisará los cambios y aceptará el Pull Request.
 
 
