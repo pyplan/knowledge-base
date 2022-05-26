@@ -1,4 +1,4 @@
-# ![Pyplan](./docs/images/logo.png)
+# ![Pyplan](./docs/_static/logo.png)
 
 Repositorio para la Base de conocimientos de Pyplan
 
