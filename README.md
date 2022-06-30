@@ -11,7 +11,7 @@ Repositorio para la Base de conocimientos de Pyplan
 ### Clonar el repositorio
 
 ``` bash
-cd  [path-de-proyectos]
+cd  [tu-path-de-proyectos]
 git clone https://github.com/pyplan/pyplan-kb.git
 ```
 
@@ -19,7 +19,7 @@ git clone https://github.com/pyplan/pyplan-kb.git
 
 ``` bash
 # Crear entorno virtual
-cd [path-de-proyectos]/
+cd [tu-path-de-proyectos]/
 python3 -m venv venv
 . venv/bin/activate # in linux/mac os
 venv\Scripts\activate.bat # in windows
@@ -32,7 +32,9 @@ pip install -r requirements.txt
 El siguiente comando corre un servidor local que permite visualizar la documentación. Al crear/guardar un nuevo archivo de documentación, el servidor aplicará los cambios y se podrá visualizar en el navegador.
 
 ``` bash
-cd [path-de-proyectos]/pyplan-kb
+cd [tu-path-de-proyectos]/pyplan-kb
+. venv/bin/activate # in linux/mac os
+venv\Scripts\activate.bat # in windows
 sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 ```
 
@@ -49,5 +51,6 @@ sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 
 La documentación se puede escribir en archivos de formato .rst (reStructuredText) o .md (markdown). Preferentemente se utilizará el formato rst. ([rst cheat sheet](https://docs.typo3.org/m/typo3/docs-how-to-document/main/en-us/WritingReST/CheatSheet.html))
 Todos los archivos de documentación se ubican dentro de la carpeta /docs.
-Para agregar imágenes, crear una carpeta images en el mismo path donde se encuentra el archivo .rst que están creando.
+Se deberán organizar los temas por subcarpetas. Ejemplo: /docs/user_guide/
+Para agregar imágenes, crear una carpeta images en el mismo path donde se encuentra el archivo .rst que utiliza dicha imagen.
 
